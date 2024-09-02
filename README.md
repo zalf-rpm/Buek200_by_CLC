@@ -11,36 +11,33 @@ It is not provided as ASCII grid since the grid cells are not perfect squares- a
 In this CRS only one resolution is provided (1000m x 1000m). This grid perfectly aligns with grids used in MONICA.
 
 # Soil data in the grid files
-The information in BAND 1 of the files clc_buek_4326_100m.tif,  clc_buek_4326_1000m.tif and clc_buek_grid_profile_25832_general.asc contain the soilprofile_id of the database buek200_by_clc.db. The profiles can be retreived from the view soil_profile_all or from the table buek_soilprofile.
+For all available maps, the soil profiles can be retreived from the view soil_profile_all (buek_soilprofile_id) or from the table buek_soilprofile (id).
 
-Four types of soil data maps are available:
+The information in BAND 1 of the files clc_buek_4326_100m.tif,  clc_buek_4326_1000m.tif and clc_buek_grid_profile_25832_general.asc contain the soilprofile_id of the database buek200_by_clc.db. 
 
-no suffix: 	Profiles are selected based on the actual land use.
-    '21': 	Where available in the Buek200, agricultural soil profiles are selected. 
-    		All other areas are filled from the general map. This means that agricultural 
-    		profiles might also be available for areas where the Buek200 does not provide any.
-    '23': 	Where available in the Buek200, pasture soil profiles are selected. 
-    		All other areas are filled from the general map. This means that pasture 
-    		profiles might also be available for areas where the Buek200 does not provide any.
-    '31': 	Where available in the Buek200, forest soil profiles are selected. 
-    		All other areas are filled from the general map. This means that forest 
-    		profiles might also be available for areas where the Buek200 does not provide any.
+The files with 'clc' in their name are maps of the profiles' Corine Code.
+Besides the maps with the soil profiles according to landudage, there are additional maps for projects that exclusively require soil profiles for agriculture, grassland or forestry.
+Four types of soil data maps are available:  
+
+no suffix or 'general': 	Profiles are selected based on the actual land use.  
+'21': 	Where available in the Buek200, agricultural soil profiles are selected.  
+All other areas are filled from the general map. This means that agricultural 
+profiles might also be available for areas where the Buek200 does not provide any.  
+'23': Where available in the Buek200, pasture soil profiles are selected. 
+All other areas are filled from the general map. This means that pasture 
+profiles might also be available for areas where the Buek200 does not provide any.  
+'31': Where available in the Buek200, forest soil profiles are selected. 
+All other areas are filled from the general map. This means that forest 
+profiles might also be available for areas where the Buek200 does not provide any.  
     		
-   clc_buek_4326_21:	   	Band 1: buek_soilprofile_id
-   clc_buek_4326_21_clc:	Band 1: Buek Corine Landcover Code
-   clc_buek_4326_23:	   	Band 1: buek_soilprofile_id
-   clc_buek_4326_23_clc:	Band 1: Buek Corine Landcover Code
-   clc_buek_4326_4326_31:	Band 1: buek_soilprofile_id
-   clc_buek_4326_31_clc:	Band 1: Buek Corine Landcover Code
-   clc_buek_4326:	   	Band 1: buek_soilprofile_id	
-   clc_buek_4326_clc: 		Band 1: Buek Corine Landcover Code
+
 
 # Corine Landcover Codes (CLC)
 |   |   |   | Name 1st digit | Name 2nd digit | Name 3rd digit |
 | - | - | - | ------------------- | ----------------- | ----------------------- |
 | 1 | 1 | 1 | Artificial surfaces | Urban fabric | Continuous urban fabric |
 | 1 | 1 | 2 | Artificial surfaces | Urban fabric | Discontinuous urban fabric  |
-|| 1| 2| 1| Artificial surfaces| Industrial, commercial and transport units| Industrial and commercial units |
+| 1| 2| 1| Artificial surfaces| Industrial, commercial and transport units| Industrial and commercial units |
 | 1| 2| 2| Artificial surfaces| Industrial, commercial and transport units| Road and rail networks and associated land |
 | 1| 2| 3| Artificial surfaces| Industrial, commercial and transport units| Port areas |
 | 1| 2| 4| Artificial surfaces| Industrial, commercial and transport units| Airports |
