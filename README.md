@@ -39,256 +39,45 @@ no suffix: 	Profiles are selected based on the actual land use.
 |   |   |   | Name 1st digit | Name 2nd digit | Name 3rd digit |
 | - | - | - | ------------------- | ----------------- | ----------------------- |
 | 1 | 1 | 1 | Artificial surfaces | Urban fabric | Continuous urban fabric |
-| 1 | 1 | 2 | Artificial surfaces | Urban fabric | Discontinuous urban fabric |
-1
-2
-1
-Artificial surfaces
-Industrial, commercial and transport units
-Industrial and commercial units
-1
-2
-2
-Artificial surfaces
-Industrial, commercial and transport units
-Road and rail networks and associated land
-1
-2
-3
-Artificial surfaces
-Industrial, commercial and transport units
-Port areas
-1
-2
-4
-Artificial surfaces
-Industrial, commercial and transport units
-Airports
-1
-3
-1
-Artificial surfaces
-Mine, dump and construction sites
-Mineral extraction sites
-1
-3
-2
-Artificial surfaces
-Mine, dump and construction sites
-Dump sites
-1
-3
-3
-Artificial surfaces
-Mine, dump and construction sites
-Construction sites
-1
-4
-1
-Artificial surfaces
-Artificial non-agricultural vegetated areas
-Green urban areas
-1
-4
-2
-Artificial surfaces
-Artificial non-agricultural vegetated areas
-Sport and leisure facilities
-2
-1
-1
-Agricultural areas
-Arable land
-Non-irrigated arable land
-2
-1
-2
-Agricultural areas
-Arable land
-Permanently irrigated land
-2
-1
-3
-Agricultural areas
-Arable land
-Rice fields
-2
-2
-1
-Agricultural areas
-Permanent crops
-Vineyards
-2
-2
-2
-Agricultural areas
-Permanent crops
-Fruit trees and berry plantations
-2
-2
-3
-Agricultural areas
-Permanent crops
-Olive groves
-2
-3
-1
-Agricultural areas
-Pastures
-Pastures
-2
-4
-1
-Agricultural areas
-Heterogeneous agricultural areas
-Annual crops associated with permanent crops
-2
-4
-2
-Agricultural areas
-Heterogeneous agricultural areas
-Complex cultivation patterns
-2
-4
-3
-Agricultural areas
-Heterogeneous agricultural areas
-Land principally occupied by agriculture, with significant areas of natural vegetation
-2
-4
-4
-Agricultural areas
-Heterogeneous agricultural areas
-Agro-forestry areas
-3
-1
-1
-Forests and semi-natural areas
-Forests
-Broad-leaved forest
-3
-1
-2
-Forests and semi-natural areas
-Forests
-Coniferous forest
-3
-1
-3
-Forests and semi-natural areas
-Forests
-Mixed forest
-3
-2
-1
-Forests and semi-natural areas
-Shrub and/or herbaceous vegetation association
-Natural grassland
-3
-2
-2
-Forests and semi-natural areas
-Shrub and/or herbaceous vegetation association
-Moors and heathland
-3
-2
-3
-Forests and semi-natural areas
-Shrub and/or herbaceous vegetation association
-Sclerophyllous vegetation
-3
-2
-4
-Forests and semi-natural areas
-Shrub and/or herbaceous vegetation association
-Transitional woodland shrub
-3
-3
-1
-Forests and semi-natural areas
-Open spaces with little or no vegetation
-Beaches, dunes, and sand plains
-3
-3
-2
-Forests and semi-natural areas
-Open spaces with little or no vegetation
-Bare rock
-3
-3
-3
-Forests and semi-natural areas
-Open spaces with little or no vegetation
-Sparsely vegetated areas
-3
-3
-4
-Forests and semi-natural areas
-Open spaces with little or no vegetation
-Burnt areas
-3
-3
-5
-Forests and semi-natural areas
-Open spaces with little or no vegetation
-Glaciers and perpetual snow
-4
-1
-1
-Wetlands
-Inland wetlands
-Inland marshes
-4
-1
-2
-Wetlands
-Inland wetlands
-Peatbogs
-4
-2
-1
-Wetlands
-Coastal wetlands
-Salt marshes
-4
-2
-2
-Wetlands
-Coastal wetlands
-Salines
-4
-2
-3
-Wetlands
-Coastal wetlands
-Intertidal flats
-5
-1
-1
-Water bodies
-Inland waters
-Water courses
-5
-1
-2
-Water bodies
-Inland waters
-Water bodies
-5
-2
-1
-Water bodies
-Marine waters
-Costal lagoons
-5
-2
-2
-Water bodies
-Marine waters
-Estuaries
-5
-2
-3
-Water bodies
-Marine waters
-Sea and ocean
+| 1 | 1 | 2 | Artificial surfaces | Urban fabric | Discontinuous urban fabric  |
+|| 1| 2| 1| Artificial surfaces| Industrial, commercial and transport units| Industrial and commercial units |
+| 1| 2| 2| Artificial surfaces| Industrial, commercial and transport units| Road and rail networks and associated land |
+| 1| 2| 3| Artificial surfaces| Industrial, commercial and transport units| Port areas |
+| 1| 2| 4| Artificial surfaces| Industrial, commercial and transport units| Airports |
+| 1| 3| 1| Artificial surfaces| Mine, dump and construction sites| Mineral extraction sites |
+| 1| 3| 2| Artificial surfaces| Mine, dump and construction sites| Dump sites |
+| 1| 3| 3| Artificial surfaces| Mine, dump and construction sites| Construction sites |
+| 1| 4| 1| Artificial surfaces| Artificial non-agricultural vegetated areas| Green urban areas |
+| 1| 4| 2| Artificial surfaces| Artificial non-agricultural vegetated areas| Sport and leisure facilities |
+| 2| 1| 1| Agricultural areas| Arable land| Non-irrigated arable land |
+| 2| 1| 2| Agricultural areas| Arable land| Permanently irrigated land |
+| 2| 1| 3|Agricultural areas| Arable land| Rice fields |
+| 2| 2| 1| Agricultural areas| Permanent crops| Vineyards |
+| 2| 2| 2| Agricultural areas| Permanent crops| Fruit trees and berry plantations |
+| 2| 2| 3| Agricultural areas| Permanent crops| Olive groves |
+| 2| 3| 1| Agricultural areas| Pastures| Pastures |
+| 2| 4| 1| Agricultural areas| Heterogeneous agricultural areas| Annual crops associated with permanent crops |
+| 2| 4| 2| Agricultural areas| Heterogeneous agricultural areas| Complex cultivation patterns |
+| 2| 4| 3| Agricultural areas| Heterogeneous agricultural areas| Land principally occupied by agriculture, with significant areas of natural| vegetation |
+| 2| 4| 4| Agricultural areas| Heterogeneous agricultural areas| Agro-forestry areas |
+| 3| 1| 1| Forests and semi-natural areas| Forests| Broad-leaved forest |
+| 3| 1| 2| Forests and semi-natural areas| Forests| Coniferous forest |
+| 3| 1| 3| Forests and semi-natural areas| Forests| Mixed forest |
+| 3| 2| 1| Forests and semi-natural areas| Shrub and/or herbaceous vegetation association| Natural grassland |
+| 3| 2| 2| Forests and semi-natural areas| Shrub and/or herbaceous vegetation association| Moors and heathland |
+| 3| 2| 3| Forests and semi-natural areas| Shrub and/or herbaceous vegetation association| Sclerophyllous vegetation |
+| 3| 2| 4| Forests and semi-natural areas| Shrub and/or herbaceous vegetation association| Transitional woodland shrub |
+| 3| 3| 1| Forests and semi-natural areas| Open spaces with little or no vegetation| Beaches, dunes, and sand plains |
+| 3| 3| 2| Forests and semi-natural areas| Open spaces with little or no vegetation| Bare rock |
+| 3| 3| 3| Forests and semi-natural areas| Open spaces with little or no vegetation| Sparsely vegetated areas |
+| 3| 3| 4| Forests and semi-natural areas| Open spaces with little or no vegetation| Burnt areas |
+| 3| 3| 5| Forests and semi-natural areas| Open spaces with little or no vegetation| Glaciers and perpetual snow |
+| 4| 1| 1| Wetlands| Inland wetlands| Inland marshes |
+| 4| 1| 2| Wetlands| Inland wetlands| Peatbogs |
+| 4| 2| 1| Wetlands| Coastal wetlands| Salt marshes| 4| 2| 2| Wetlands| Coastal wetlands| Salines |
+| 4| 2| 3| Wetlands| Coastal wetlands| Intertidal flats |
+| 5| 1| 1| Water bodies| Inland waters| Water courses |
+| 5| 1| 2| Water bodies| Inland waters| Water bodies |
+| 5| 2| 1| Water bodies| Marine waters| Costal lagoons |
+| 5| 2| 2| Water bodies| Marine waters| Estuaries |
+| 5| 2| 3| Water bodies| Marine waters| Sea and ocean |
