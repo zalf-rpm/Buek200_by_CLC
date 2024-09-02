@@ -1,0 +1,45 @@
+In all GeoTIFFs in this folder, the CRS is EPSG 25832, and the grid size is 1 km x 1 km. The grid aligns with the ascii grids used in MONICA (e.g. buek200_1000_25832_etrs89-utm32n.asc, dem_1000_25832_etrs89-utm32n.asc).
+
+SHORT: FOR MULTIPURPOSE CALCULATIONS, USE THE FILE clc_buek_grid_profile_25832_general.tif.
+ 	It contains the soilprofile_ids. 
+ 	If you need agricultural soils, use clc_buek_4326_21.tif.
+
+
+For all of Germany, one soil profile is preselected. These profiles were obtained by intersecting the Buek200 with the Corine Land Cover Map from 2018. Where available, the corresponding profile was assigned. For discrepant CLCs and profiles, similar profiles were chosen, or profiles from nearby locations were used.
+
+Four types of soil data maps are available:
+
+    'general': 	Profiles are selected based on the actual land use.
+    '21': 	Where available in the Buek200, agricultural soil profiles are selected. 
+    		All other areas are filled from the general map. This means that agricultural 
+    		profiles might also be available for areas where the Buek200 does not provide any.
+    '23': 	Where available in the Buek200, pasture soil profiles are selected. 
+    		All other areas are filled from the general map. This means that pasture 
+    		profiles might also be available for areas where the Buek200 does not provide any.
+    '31': 	Where available in the Buek200, forest soil profiles are selected. 
+    		All other areas are filled from the general map. This means that forest 
+    		profiles might also be available for areas where the Buek200 does not provide any.
+    		
+   clc_buek_grid_profile_25832_21:	   Band 1: buek_soilprofile_id
+   clc_buek_grid_profile_25832_21_clc:	   Band 1: Buek Corine Landcover Code
+   clc_buek_grid_profile_25832_23:	   Band 1: buek_soilprofile_id
+   clc_buek_grid_profile_25832_23_clc:	   Band 1: Buek Corine Landcover Code
+   clc_buek_grid_profile_25832_31:	   Band 1: buek_soilprofile_id
+   clc_buek_grid_profile_25832_31_clc:	   Band 1: Buek Corine Landcover Code
+   clc_buek_grid_profile_25832_general:	   Band 1: buek_soilprofile_id	
+   clc_buek_grid_profile_25832_general_clc: Band 1: Buek Corine Landcover Code
+   
+   
+   clc_buek_4326_4326_31:	Band 1: buek_soilprofile_id
+   clc_buek_4326_31_clc:	Band 1: Buek Corine Landcover Code
+   clc_buek_4326:	   	Band 1: buek_soilprofile_id	
+   clc_buek_4326_clc: 		Band 1: Buek Corine Landcover Code
+
+
+   					   
+ To obtain the soil profiles, JOIN the soilprofile_id from the clc_buek_grid_profile_4326_xx with the sqlite database buek200_by_clc:
+ SELECT * FROM soil_profile_all 
+ WHERE buek_soilprofile_id = ...
+   					   
+   					   
+
