@@ -3,14 +3,14 @@
 These soil profile maps for Germany were created using the Buek200 (https://gdz.bkg.bund.de/index.php/default/digitale-geodaten/digitale-landschaftsmodelle/corine-land-cover-5-ha-stand-2018-clc5-2018.html) and the Corine Landcover Map 2018 (https://gdz.bkg.bund.de/index.php/default/digitale-geodaten/digitale-landschaftsmodelle/corine-land-cover-5-ha-stand-2018-clc5-2018.html). Where possible, soilprofiles were assigned selecting the profile according to the landusage codes. 
 In case of mismatches, similar or neighboring profiles were selected. In areas, where the Buek does not provide profiles, neighboring profiles were selected.
 
-# EPSG 4326
+## EPSG 4326
 In the folder EPSG_4326 there are two resolutions - approximately 100m x 100m and 1000m x 1000m. The latter aligns with the weather data as NetCDF from DWD. 
 It is not provided as ASCII grid since the grid cells are not perfect squares- a coversion is possible, but most software can not handle such ASCII grids. 
 
-# EPSG 25832
+## EPSG 25832
 In this CRS only one resolution is provided (1000m x 1000m). This grid perfectly aligns with grids used in MONICA.
 
-# Soil data in the grid files
+## Soil data in the grid files
 For all available maps, the soil profiles can be retreived from the view soil_profile_all (buek_soilprofile_id) or from the table buek_soilprofile (id).
 
 The information in BAND 1 of the files clc_buek_4326_100m.tif,  clc_buek_4326_1000m.tif and clc_buek_grid_profile_25832_general.asc contain the soilprofile_id of the database buek200_by_clc.db. 
@@ -32,7 +32,7 @@ profiles might also be available for areas where the Buek200 does not provide an
     		
 
 
-# Corine Landcover Codes (CLC)
+## Corine Landcover Codes (CLC)
 |   |   |   | Name 1st digit | Name 2nd digit | Name 3rd digit |
 | - | - | - | ------------------- | ----------------- | ----------------------- |
 | 1 | 1 | 1 | Artificial surfaces | Urban fabric | Continuous urban fabric |
