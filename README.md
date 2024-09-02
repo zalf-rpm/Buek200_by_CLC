@@ -36,9 +36,10 @@ no suffix: 	Profiles are selected based on the actual land use.
    clc_buek_4326_clc: 		Band 1: Buek Corine Landcover Code
 
 # Corine Landcover Codes (CLC)
-   |   |   | Name 1st digit | Name 2nd digit | Name 3rd digit
-1 | 1 | 1 | Artificial surfaces | Urban fabric | Continuous urban fabric
-1 | 1 | 2 | Artificial surfaces | Urban fabric | Discontinuous urban fabric
+|   |   |   | Name 1st digit | Name 2nd digit | Name 3rd digit |
+| - | - | - | ------------------- | ----------------- | ----------------------- |
+| 1 | 1 | 1 | Artificial surfaces | Urban fabric | Continuous urban fabric |
+| 1 | 1 | 2 | Artificial surfaces | Urban fabric | Discontinuous urban fabric |
 1
 2
 1
