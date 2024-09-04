@@ -1,5 +1,8 @@
 In all GeoTIFFs in this folder, the CRS is EPSG 4326, and the grid size is approximately 1 km x 1 km. The grid aligns with the DWD weather data (e.g., 'zalf_hurs_amber_2007_v1-0.nc').
-The creation of ASCII fiels comes with the caveat, that the source's grid cells are not square- therefore not all software can handle those files.
+
+The scale of the GeoTiffs in the folder 100mx100m is exactly 1/10 of the grids in the 1000mx1000m, but they are also rectangular.
+
+In case ASCII files are needed, they can be created from the GeoTiffs in 001_degreed_100m_squared_4326, as these grids are squared.
 
 SHORT: FOR MULTIPURPOSE CALCULATIONS, USE THE FILE clc_buek_4326_100m.tif or clc_buek_4326_1000m.tif.
  	It contains the soilprofile_ids. 

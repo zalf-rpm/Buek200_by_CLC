@@ -1,6 +1,10 @@
 # Buek200_by_CLC
+This repository contains soil profile maps for Germany where all of the country is covered. One single profile is preselected according to the landusage. 
+These maps are meant for modelling purposes.
 
-These soil profile maps for Germany were created using the Buek200 (https://gdz.bkg.bund.de/index.php/default/digitale-geodaten/digitale-landschaftsmodelle/corine-land-cover-5-ha-stand-2018-clc5-2018.html) and the Corine Landcover Map 2018 (https://gdz.bkg.bund.de/index.php/default/digitale-geodaten/digitale-landschaftsmodelle/corine-land-cover-5-ha-stand-2018-clc5-2018.html). Where possible, soilprofiles were assigned selecting the profile according to the landusage codes. 
+These soil profile maps for Germany were created using the Buek200 (https://gdz.bkg.bund.de/index.php/default/digitale-geodaten/digitale-landschaftsmodelle/corine-land-cover-5-ha-stand-2018-clc5-2018.html) and the Corine Landcover Map 2018 (https://gdz.bkg.bund.de/index.php/default/digitale-geodaten/digitale-landschaftsmodelle/corine-land-cover-5-ha-stand-2018-clc5-2018.html). 
+
+Where possible, soilprofiles were assigned selecting the profile according to the landusage codes. 
 In case of mismatches, similar or neighboring profiles were selected. In areas, where the Buek does not provide profiles, neighboring profiles were selected.
 
 ## EPSG 4326
